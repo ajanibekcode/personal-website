@@ -1,0 +1,47 @@
+.custom-header {
+    background-image:url("pictures/background.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.custom-dark-glow {
+    color:white;
+    text-shadow:1px 1px 10px #000, 1px 1px 10px rgb(29, 29, 29);
+}
+
+.custom-header .lead {
+    color: rgb(255, 242, 167)
+}
+
+.custom-header .fw-bolder{
+    color: rgb(255, 242, 167);
+}
+
+body {text-align:center;}
+
+h1, h2 {
+    font-family: 'Alkalami', serif;
+}
+
+h3 {
+ margin-top: 4rem;
+ margin-bottom: 2rem;
+}
+
+.my-custom-color {background-color:#8a9be6;}
+
+.tab-content > .active {
+    display: block;
+    background-color: #fff;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+ .nav-link:hover {
+    color: #000;
+  }
+  
+  .nav-link { 
+      color:#fff;
+  }
